@@ -2,7 +2,7 @@
   "private": true,
   "devDependencies": {
     "es-check": "^6.2.1",
-    "eslint": "^8.16.0",
+    "eslint": "^8.34.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.7.1",
     "source-map": "0.7.4",
