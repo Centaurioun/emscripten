@@ -12,11 +12,15 @@
     "acorn": "^8.7.1",
     "google-closure-compiler": "20220502.0.0",
     "html-minifier-terser": "6.1.0",
-    "wasm2c": "1.0.0"
+    "wasm2c": "1.0.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "lint": "eslint .",
     "fmt": "prettier --write tools/acorn-optimizer.js",
-    "check": "prettier --check tools/acorn-optimizer.js"
-  }
+    "check": "prettier --check tools/acorn-optimizer.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
