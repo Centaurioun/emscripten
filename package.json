@@ -9,7 +9,7 @@
     "ws": "^8.6.0"
   },
   "dependencies": {
-    "acorn": "^8.7.1",
+    "acorn": "^8.8.2",
     "google-closure-compiler": "20220502.0.0",
     "html-minifier-terser": "6.1.0",
     "wasm2c": "1.0.0"
